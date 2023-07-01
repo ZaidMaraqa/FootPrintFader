@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6F8A6E2A47A9C400B42565 /* CarbonFootPrintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A6D2A47A9C400B42565 /* CarbonFootPrintApp.swift */; };
+		2C6F8A702A47A9C400B42565 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A6F2A47A9C400B42565 /* ContentView.swift */; };
+		2C6F8A722A47A9C500B42565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F8A712A47A9C500B42565 /* Assets.xcassets */; };
+		2C6F8A752A47A9C500B42565 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6F8A742A47A9C500B42565 /* Preview Assets.xcassets */; };
+		2C6F8A7F2A47A9C500B42565 /* CarbonFootPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7E2A47A9C500B42565 /* CarbonFootPrintTests.swift */; };
+		2C6F8A892A47A9C500B42565 /* CarbonFootPrintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A882A47A9C500B42565 /* CarbonFootPrintUITests.swift */; };
+		2C6F8A8B2A47A9C500B42565 /* CarbonFootPrintUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A8A2A47A9C500B42565 /* CarbonFootPrintUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6F8A7B2A47A9C500B42565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6F8A622A47A9C400B42565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6F8A692A47A9C400B42565;
+			remoteInfo = CarbonFootPrint;
+		};
+		2C6F8A852A47A9C500B42565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6F8A622A47A9C400B42565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6F8A692A47A9C400B42565;
+			remoteInfo = CarbonFootPrint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C6F8A6A2A47A9C400B42565 /* CarbonFootPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonFootPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6F8A6D2A47A9C400B42565 /* CarbonFootPrintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootPrintApp.swift; sourceTree = "<group>"; };
+		2C6F8A6F2A47A9C400B42565 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C6F8A712A47A9C500B42565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6F8A742A47A9C500B42565 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C6F8A7A2A47A9C500B42565 /* CarbonFootPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonFootPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6F8A7E2A47A9C500B42565 /* CarbonFootPrintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootPrintTests.swift; sourceTree = "<group>"; };
+		2C6F8A842A47A9C500B42565 /* CarbonFootPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonFootPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6F8A882A47A9C500B42565 /* CarbonFootPrintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootPrintUITests.swift; sourceTree = "<group>"; };
+		2C6F8A8A2A47A9C500B42565 /* CarbonFootPrintUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonFootPrintUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C6F8A672A47A9C400B42565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F8A772A47A9C500B42565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F8A812A47A9C500B42565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6F8A612A47A9C400B42565 = {
+			isa = PBXGroup;
+			children = (
+				2C6F8A6C2A47A9C400B42565 /* CarbonFootPrint */,
+				2C6F8A7D2A47A9C500B42565 /* CarbonFootPrintTests */,
+				2C6F8A872A47A9C500B42565 /* CarbonFootPrintUITests */,
+				2C6F8A6B2A47A9C400B42565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C6F8A6B2A47A9C400B42565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F8A6A2A47A9C400B42565 /* CarbonFootPrint.app */,
+				2C6F8A7A2A47A9C500B42565 /* CarbonFootPrintTests.xctest */,
+				2C6F8A842A47A9C500B42565 /* CarbonFootPrintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C6F8A6C2A47A9C400B42565 /* CarbonFootPrint */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F8A6D2A47A9C400B42565 /* CarbonFootPrintApp.swift */,
+				2C6F8A6F2A47A9C400B42565 /* ContentView.swift */,
+				2C6F8A712A47A9C500B42565 /* Assets.xcassets */,
+				2C6F8A732A47A9C500B42565 /* Preview Content */,
+			);
+			path = CarbonFootPrint;
+			sourceTree = "<group>";
+		};
+		2C6F8A732A47A9C500B42565 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F8A742A47A9C500B42565 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C6F8A7D2A47A9C500B42565 /* CarbonFootPrintTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F8A7E2A47A9C500B42565 /* CarbonFootPrintTests.swift */,
+			);
+			path = CarbonFootPrintTests;
+			sourceTree = "<group>";
+		};
+		2C6F8A872A47A9C500B42565 /* CarbonFootPrintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6F8A882A47A9C500B42565 /* CarbonFootPrintUITests.swift */,
+				2C6F8A8A2A47A9C500B42565 /* CarbonFootPrintUITestsLaunchTests.swift */,
+			);
+			path = CarbonFootPrintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C6F8A692A47A9C400B42565 /* CarbonFootPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6F8A8E2A47A9C500B42565 /* Build configuration list for PBXNativeTarget "CarbonFootPrint" */;
+			buildPhases = (
+				2C6F8A662A47A9C400B42565 /* Sources */,
+				2C6F8A672A47A9C400B42565 /* Frameworks */,
+				2C6F8A682A47A9C400B42565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonFootPrint;
+			productName = CarbonFootPrint;
+			productReference = 2C6F8A6A2A47A9C400B42565 /* CarbonFootPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C6F8A792A47A9C500B42565 /* CarbonFootPrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6F8A912A47A9C500B42565 /* Build configuration list for PBXNativeTarget "CarbonFootPrintTests" */;
+			buildPhases = (
+				2C6F8A762A47A9C500B42565 /* Sources */,
+				2C6F8A772A47A9C500B42565 /* Frameworks */,
+				2C6F8A782A47A9C500B42565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6F8A7C2A47A9C500B42565 /* PBXTargetDependency */,
+			);
+			name = CarbonFootPrintTests;
+			productName = CarbonFootPrintTests;
+			productReference = 2C6F8A7A2A47A9C500B42565 /* CarbonFootPrintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C6F8A832A47A9C500B42565 /* CarbonFootPrintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6F8A942A47A9C500B42565 /* Build configuration list for PBXNativeTarget "CarbonFootPrintUITests" */;
+			buildPhases = (
+				2C6F8A802A47A9C500B42565 /* Sources */,
+				2C6F8A812A47A9C500B42565 /* Frameworks */,
+				2C6F8A822A47A9C500B42565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6F8A862A47A9C500B42565 /* PBXTargetDependency */,
+			);
+			name = CarbonFootPrintUITests;
+			productName = CarbonFootPrintUITests;
+			productReference = 2C6F8A842A47A9C500B42565 /* CarbonFootPrintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6F8A622A47A9C400B42565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2C6F8A692A47A9C400B42565 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2C6F8A792A47A9C500B42565 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2C6F8A692A47A9C400B42565;
+					};
+					2C6F8A832A47A9C500B42565 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2C6F8A692A47A9C400B42565;
+					};
+				};
+			};
+			buildConfigurationList = 2C6F8A652A47A9C400B42565 /* Build configuration list for PBXProject "CarbonFootPrint" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C6F8A612A47A9C400B42565;
+			productRefGroup = 2C6F8A6B2A47A9C400B42565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C6F8A692A47A9C400B42565 /* CarbonFootPrint */,
+				2C6F8A792A47A9C500B42565 /* CarbonFootPrintTests */,
+				2C6F8A832A47A9C500B42565 /* CarbonFootPrintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C6F8A682A47A9C400B42565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6F8A752A47A9C500B42565 /* Preview Assets.xcassets in Resources */,
+				2C6F8A722A47A9C500B42565 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F8A782A47A9C500B42565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F8A822A47A9C500B42565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6F8A662A47A9C400B42565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6F8A702A47A9C400B42565 /* ContentView.swift in Sources */,
+				2C6F8A6E2A47A9C400B42565 /* CarbonFootPrintApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F8A762A47A9C500B42565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6F8A7F2A47A9C500B42565 /* CarbonFootPrintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6F8A802A47A9C500B42565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6F8A892A47A9C500B42565 /* CarbonFootPrintUITests.swift in Sources */,
+				2C6F8A8B2A47A9C500B42565 /* CarbonFootPrintUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C6F8A7C2A47A9C500B42565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6F8A692A47A9C400B42565 /* CarbonFootPrint */;
+			targetProxy = 2C6F8A7B2A47A9C500B42565 /* PBXContainerItemProxy */;
+		};
+		2C6F8A862A47A9C500B42565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6F8A692A47A9C400B42565 /* CarbonFootPrint */;
+			targetProxy = 2C6F8A852A47A9C500B42565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C6F8A8C2A47A9C500B42565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C6F8A8D2A47A9C500B42565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6F8A8F2A47A9C500B42565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarbonFootPrint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carbon.CarbonFootPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C6F8A902A47A9C500B42565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarbonFootPrint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carbon.CarbonFootPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C6F8A922A47A9C500B42565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carbon.CarbonFootPrintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbonFootPrint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbonFootPrint";
+			};
+			name = Debug;
+		};
+		2C6F8A932A47A9C500B42565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carbon.CarbonFootPrintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbonFootPrint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbonFootPrint";
+			};
+			name = Release;
+		};
+		2C6F8A952A47A9C500B42565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carbon.CarbonFootPrintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbonFootPrint;
+			};
+			name = Debug;
+		};
+		2C6F8A962A47A9C500B42565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Carbon.CarbonFootPrintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbonFootPrint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6F8A652A47A9C400B42565 /* Build configuration list for PBXProject "CarbonFootPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6F8A8C2A47A9C500B42565 /* Debug */,
+				2C6F8A8D2A47A9C500B42565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6F8A8E2A47A9C500B42565 /* Build configuration list for PBXNativeTarget "CarbonFootPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6F8A8F2A47A9C500B42565 /* Debug */,
+				2C6F8A902A47A9C500B42565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6F8A912A47A9C500B42565 /* Build configuration list for PBXNativeTarget "CarbonFootPrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6F8A922A47A9C500B42565 /* Debug */,
+				2C6F8A932A47A9C500B42565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6F8A942A47A9C500B42565 /* Build configuration list for PBXNativeTarget "CarbonFootPrintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6F8A952A47A9C500B42565 /* Debug */,
+				2C6F8A962A47A9C500B42565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C6F8A622A47A9C400B42565 /* Project object */;
+}
