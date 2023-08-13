@@ -8,13 +8,16 @@
 import SwiftUI
 
 @main
-struct FootPrintFaderApp: App {
+struct FootPrintFader: App {
+    @StateObject private var userInputs = UserInputs()
+
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                WelcomeView()
-            }
+            WelcomeView()
+                .environmentObject(userInputs)
         }
     }
 }
+
+
 
