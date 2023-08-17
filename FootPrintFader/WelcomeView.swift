@@ -1,7 +1,9 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
+        
         NavigationView {
             ZStack {
                 Image("CarbonBackground") // replace "background" with your image name
@@ -22,7 +24,7 @@ struct WelcomeView: View {
                         .shadow(color: .black, radius: 2, x: 0, y: 2)
                     Spacer()
 
-                    NavigationLink(destination: UtilitiesView()) {
+                    NavigationLink(destination: RegistrationView()) {
                         Text("Get Started")
                             .font(.headline)
                             .foregroundColor(.black)

@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct FootPrintFader: App {
     @StateObject private var userInputs = UserInputs()
+    @StateObject private var viewModel = AuthViewModel()
+    
+    init(){
+        FirebaseApp.configure()
+    }
 
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            ContentView()
                 .environmentObject(userInputs)
+                .environmentObject(viewModel)
         }
     }
 }
