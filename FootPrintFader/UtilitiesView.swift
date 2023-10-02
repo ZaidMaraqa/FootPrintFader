@@ -5,6 +5,21 @@ struct UtilitiesView: View {
     @State private var electricBillText = ""
     @State private var gasBillText = ""
     @State private var oilBillText = ""
+    
+    // Whenever a text changes, try to convert it to a Double and update the model
+       private func updateModel() {
+           if let value = Double(electricBillText) {
+               userInputs.electricBill = value
+           }
+           
+           if let value = Double(gasBillText) {
+               userInputs.gasBill = value
+           }
+           
+           if let value = Double(oilBillText) {
+               userInputs.oilBill = value
+           }
+       }
 
     var body: some View {
         VStack {
@@ -17,14 +32,7 @@ struct UtilitiesView: View {
                 Text("Electric Bill")
                     .font(.headline)
                     .padding(.leading, 15)
-                TextField("Enter Electric Bill", text: Binding<String>(
-                    get: { String(self.userInputs.electricBill) },
-                    set: {
-                        if let value = Double($0) {
-                            self.userInputs.electricBill = value
-                        }
-                    }
-                ))
+                TextField("Enter Electric Bill", text: $electricBillText, onCommit: updateModel)
                 .keyboardType(.numberPad)
                 .padding()
                 .background(Color(.systemGray6))
@@ -35,14 +43,7 @@ struct UtilitiesView: View {
                     .font(.headline)
                     .padding(.leading, 15)
                     .padding(.top, 10)
-                TextField("Enter Gas Bill", text: Binding<String>(
-                    get: { String(self.userInputs.gasBill) },
-                    set: {
-                        if let value = Double($0) {
-                            self.userInputs.gasBill = value
-                        }
-                    }
-                ))
+                TextField("Enter Gas Bill", text: $gasBillText, onCommit: updateModel)
                 .keyboardType(.numberPad)
                 .padding()
                 .background(Color(.systemGray6))
@@ -53,18 +54,7 @@ struct UtilitiesView: View {
                     .font(.headline)
                     .padding(.leading, 15)
                     .padding(.top, 10)
-                TextField("Enter Oil Bill", text:
-                    Binding<String>(
-                    get: {
-                        String(self.userInputs.oilBill)
-                        },
-                    set: {
-                        if let value = Double($0){
-                            self.userInputs.oilBill = value
-                        }
-                    }
-                    
-                ))
+                TextField("Enter Oil Bill", text: $oilBillText, onCommit: updateModel)
                 .keyboardType(.numberPad)
                 .padding()
                 .background(Color(.systemGray6))
@@ -85,6 +75,13 @@ struct UtilitiesView: View {
             .padding(.top, 50)
         }
         .padding()
+        .onAppear {
+                    // Initialize the text fields with the model values when the view appears
+                    electricBillText = String(format: "%.2f", userInputs.electricBill)
+                    gasBillText = String(format: "%.2f", userInputs.gasBill)
+                    oilBillText = String(format: "%.2f", userInputs.oilBill)
+                }
+
     }
 }
 

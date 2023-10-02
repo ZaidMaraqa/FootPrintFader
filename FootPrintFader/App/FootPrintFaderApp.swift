@@ -20,8 +20,8 @@ struct FootPrintFader: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(userInputs)
                 .environmentObject(viewModel)
+                .environmentObject(userInputs)
         }
     }
 }

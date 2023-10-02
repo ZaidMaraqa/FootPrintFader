@@ -37,6 +37,7 @@ class UserInputs: ObservableObject {
     var totalFootprint: Double {
         return utilitiesFootprint + transportFootprint + recyclingFootprint
     }
+
 }
 
 

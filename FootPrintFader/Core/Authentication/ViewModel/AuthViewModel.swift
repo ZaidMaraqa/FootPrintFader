@@ -17,6 +17,7 @@ protocol AuthenticationFormProtocol {
 class AuthViewModel: ObservableObject{
     @Published var userSession: FirebaseAuth.User?
     @Published var currentUser: User?
+
     
     init(){
         self.userSession = Auth.auth().currentUser
@@ -58,6 +59,7 @@ class AuthViewModel: ObservableObject{
             try Auth.auth().signOut() // Signs out user on backend
             self.userSession = nil
             self.currentUser = nil //Wipes our current user data model
+            print("USER SIGNED OUT")
         } catch{
             print("DEBUG: Failed to sign out with error \(error.localizedDescription)")
         }
@@ -75,6 +77,25 @@ class AuthViewModel: ObservableObject{
             .collection("users").document(uid).getDocument() else { return }
         self.currentUser = try? snapshot.data(as: User.self)
         
-        print("DEBUG: Current user is \(self.currentUser)")
+        if let user = self.currentUser {
+            print("DEBUG: Current user is \(user)")
+        } else {
+            print("DEBUG: Current user is nil")
+        }
     }
+    
+    func saveFootprintToFirebase(footprint: Double) {
+            guard let uid = Auth.auth().currentUser?.uid else { return }
+            
+            Firestore.firestore().collection("users").document(uid).updateData(["carbonFootprint": footprint]) { (error) in
+                if let error = error {
+                    print("Failed to update carbon footprint: \(error.localizedDescription)")
+                }
+                else {
+                    print("Successfully updated carbon footprint for user.")
+            }
+        }
+    }
+    
+    
 }

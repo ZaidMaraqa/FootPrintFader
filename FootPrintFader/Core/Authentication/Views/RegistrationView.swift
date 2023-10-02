@@ -89,6 +89,7 @@ struct RegistrationView: View {
                     
                 }
                 .font(.system(size: 14))
+                .foregroundColor(Color(.systemGreen))
             }
             
         }
