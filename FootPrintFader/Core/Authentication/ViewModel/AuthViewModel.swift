@@ -57,6 +57,7 @@ class AuthViewModel: ObservableObject{
     func signOut(){
         do{
             try Auth.auth().signOut() // Signs out user on backend
+            print("Firebase Current User after signout: \(String(describing: Auth.auth().currentUser))")
             self.userSession = nil
             self.currentUser = nil //Wipes our current user data model
             print("USER SIGNED OUT")

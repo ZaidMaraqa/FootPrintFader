@@ -8,25 +8,24 @@
 import SwiftUI
 
 
-struct ContentView: View{
+struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
-    
-    var body: some View {
-        Group{
-            if viewModel.userSession != nil {
-                DashboardView()
 
-            } else{
-                WelcomeView()
-            }
+    var body: some View {
+        if viewModel.currentUser == nil {
+            LogInView() // This should be your actual login view
+        } else {
+            DashboardView()
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider{
     static var previews: some View {
         ContentView()
             .environmentObject(AuthViewModel())
+            .environmentObject(UserInputs())
     }
 }
 

@@ -26,6 +26,7 @@ struct WelcomeView: View {
 
                     NavigationLink(destination: RegistrationView()) {
                         Text("Get Started")
+                            .navigationBarBackButtonHidden(true)
                             .font(.headline)
                             .foregroundColor(.black)
                             .padding()
